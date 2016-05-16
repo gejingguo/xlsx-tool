@@ -16,7 +16,8 @@ exports.showOpenDialog = function () {
             }
             console.log(data);
             try {
-                global.setting = eval('('+data+')');
+                //global.setting = eval('('+data+')');
+                global.setting = JSON.parse(data);
                 //var controller = require('./controller');
                 showXlsxList();
             }

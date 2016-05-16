@@ -1,0 +1,13 @@
+{
+    "xlsxpath": "E:\\project\\nodejs\\xlsx-tool\\data",
+    "xlsxlist": [
+        {
+            "xlsx": "道具表.xlsx",
+            "sheet": "道具"
+        },
+        {
+            "xlsx": "任务表.xlsx",
+            "sheet": "任务"
+        }
+    ]
+}
